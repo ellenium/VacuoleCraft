@@ -13,7 +13,7 @@ public class VacuoleCraft {
 
         if(args.length == 0) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter digitalocean api key: ");
+            System.out.println("Enter digitalocean api key (by pressing enter, you agree to mojang's minecraft eula): ");
             key = scanner.nextLine();
         } else {
             key = args[0];
